@@ -1,6 +1,6 @@
-numpy
-pandas
-scipy
-yfinance
-plotly
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+yfinance==1.7.0
+matplotlib==3.11.2
 jupyter
