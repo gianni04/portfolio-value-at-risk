@@ -2,6 +2,8 @@
 
 One-day 99% VaR and expected shortfall (ES) for a EUR portfolio of stocks, a bond ETF and Ethereum. Four models are compared and backtested out of sample.
 
+A short note with the method and results: [note/portfolio-value-at-risk.pdf](note/portfolio-value-at-risk.pdf).
+
 ## Method
 
 - Portfolio: LVMH, Sanofi, L'Oréal, Airbus (40%), Apple, Microsoft, NVIDIA (30%), TLT (20%), Ethereum (10%). Rebalanced daily to fixed weights.
