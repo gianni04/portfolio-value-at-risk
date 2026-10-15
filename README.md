@@ -6,7 +6,7 @@ A short note with the method and results: [note/portfolio-value-at-risk.pdf](not
 
 ## Method
 
-- Portfolio: LVMH, Sanofi, L'Oréal, Airbus (40%), Apple, Microsoft, NVIDIA (30%), TLT (20%), Ethereum (10%). Rebalanced daily to fixed weights.
+- Portfolio: the four French stocks LVMH, Sanofi, L'Oréal and Airbus (40% together, 10% each), the three US stocks Apple, Microsoft and NVIDIA (30% together), TLT (20%) and Ethereum (10%). Rebalanced daily to fixed weights.
 - USD assets are converted with EURUSD, so FX risk is included.
 - Models: historical, normal, Student-t (maximum likelihood) and Monte Carlo with Student-t scenarios. EWMA (lambda 0.94) is added in the backtest.
 - Backtest: each day, VaR is estimated on the previous 250 days and compared with the next day's loss. 1,244 days from 2021 to 2025.
